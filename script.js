@@ -1,38 +1,5 @@
 
-function computerPlay(){
 
-    let rock = "Rock";
-    let paper = "Paper";
-    let scissors = "Scissors";
-
-    const array_options = [rock,paper,scissors];
-    const random = Math.floor(Math.random() * array_options.length)
-
-
-    return(array_options[random]); 
-}
-
-
-function playRound(playerSelection, computerSelection){
-
-    let winner;
-
-    if (playerSelection === computerSelection){
-        winner = ("The Computer chose: " + computerSelection + "\n"  + "You chose: " + playerSelection + "\n"  + "It's a Draw!!!");
-
-    } else if ( playerSelection == "Rock" && computerSelection == "Scissors" || 
-                playerSelection == "Scissors" && computerSelection == "Paper" || 
-                playerSelection == "Paper" && computerSelection == "Rock")  {
-        winner = ("The Computer chose: " + computerSelection + "\n"  + "You chose: " + playerSelection + "\n"  + "YOU WIN!!!");
-
-    } else {
-        winner = ("The Computer chose: " + computerSelection + "\n"  + "You chose: " + playerSelection + "\n"  + "YOU LOOSE!!!");
-    }
-
-
-    return winner; 
-
-}
 
 function game (){
     
