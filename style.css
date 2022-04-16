@@ -1,0 +1,24 @@
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+button {
+    border: 2px solid white;
+    flex-shrink: 0;
+    font-family: Roboto, sans-serif;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    padding: 8px;
+    width: 100px;
+}
+
+.texts {
+    display: flex; 
+    justify-content: center;
+
+
+}
